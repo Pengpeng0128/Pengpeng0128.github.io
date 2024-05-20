@@ -13,7 +13,8 @@
 |😄 Pronouns: ...|preparedness ensures success and unpreparedness spells failure|预则立，不预则废| 
 |⚡ Fun fact: ...|GiveMeSomeHints|给我点提示哈哈哈| 
 ---
-https://img.shields.io/badge/MailToMe_@鹏鹏0128
+
+
 
 
 
