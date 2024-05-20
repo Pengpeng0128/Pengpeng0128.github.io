@@ -6,16 +6,40 @@
     <title>Accountancy in SUSE</title>
     <style>
         table {
-            width: 100%;
+            width: 80%;
             border-collapse: collapse;
+            table-layout: auto;
+            align-self: center;
+            margin: 0px auto;
+        }
+        div{
+            margin: 0px auto;
         }
         th, td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: center;
+            table-layout: auto;
         }
         th {
             background-color: #f2f2f2;
+        }
+        tr{
+            table-layout: auto;
+        }
+        .align-left{
+            text-align: left;
+            background-color: #f2f2f2;
+        }
+        body{
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        p{
+            text-indent: 2em;
+        }        
+        .fourEM-indent{
+            text-indent: 4em;
         }
     </style>
 </head>
@@ -23,8 +47,8 @@
     <h1>Hi there 👋</h1>
     <h1>欢迎光临我的博客！</h1>
 
-    <h2>🎓 Accountancy in SUSE</h2>
-
+    <h2 class="fourEM-indent">🎓 Accountancy in SUSE</h2>
+    <p>this is the paragraph for demostration purpose. In oder to display the position of the paragraph and the table.this is the paragraph for demostration purpose. In oder to display the position of the paragraph and the table.this is the paragraph for demostration purpose. In oder to display the position of the paragraph and the table.this is the paragraph for demostration purpose. In oder to display the position of the paragraph and the table.this is the paragraph for demostration purpose. In oder to display the position of the paragraph and the table.</p>
     <table>
         <thead>
             <tr>
@@ -35,42 +59,42 @@
         </thead>
         <tbody>
             <tr>
-                <td>🔭 I’m currently working on ...</td>
+                <td class="align-left">🔭 I’m currently working on ...</td>
                 <td>Graduation thesis</td>
                 <td>毕业论文</td>
             </tr>
             <tr>
-                <td>🌱 I’m currently learning ...</td>
+                <td class="align-left">🌱 I’m currently learning ...</td>
                 <td>Markdown & Website</td>
                 <td>MD和网站</td>
             </tr>
             <tr>
-                <td>👯 I’m looking to collaborate on ...</td>
+                <td class="align-left">👯 I’m looking to collaborate on ...</td>
                 <td>learning on CPA</td>
                 <td>学习CPA</td>
             </tr>
             <tr>
-                <td>🤔 I’m looking for help with ...</td>
+                <td class="align-left">🤔 I’m looking for help with ...</td>
                 <td>Future Planning</td>
                 <td>生涯规划</td>
             </tr>
             <tr>
-                <td>💬 Ask me about ...</td>
+                <td class="align-left">💬 Ask me about ...</td>
                 <td>Issues in Accounting</td>
                 <td>会计上的问题</td>
             </tr>
             <tr>
-                <td>📫 How to reach me: ...</td>
+                <td class="align-left">📫 How to reach me: ...</td>
                 <td><a href="mailto:leolee176@foxmail.com">MailToMe</a></td>
                 <td><a href="mailto:leolee176@foxmail.com">给我发邮件</a></td>
             </tr>
             <tr>
-                <td>😄 Pronouns: ...</td>
+                <td class="align-left">😄 Pronouns: ...</td>
                 <td>preparedness ensures success and unpreparedness spells failure</td>
                 <td>预则立，不预则废</td>
             </tr>
             <tr>
-                <td>⚡ Fun fact: ...</td>
+                <td class="align-left">⚡ Fun fact: ...</td>
                 <td>GiveMeSomeHints</td>
                 <td>给我点提示哈哈哈</td>
             </tr>
@@ -78,7 +102,12 @@
     </table>
 
     <footer>
-        <a href="https://img.shields.io/badge/MailToMe_@鹏鹏0128">MailToMe_@鹏鹏0128</a>
+         <div>
+            <a href="https://img.shields.io/badge/MailToMe_PengPeng0128">邮件</a>
+            ·
+            <a href="https://peng128.xyz">博客</a>
+            ·
+        </div>
     </footer>
 </body>
 </html>
